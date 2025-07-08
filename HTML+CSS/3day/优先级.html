@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>优先级</title>
+</head>
+<style>
+    /* !important提权功能，提高权重/优先级最高 */
+    *{
+        color: red ;
+    }
+    div{
+        color: orange;
+    }
+    .box{
+        color: yellow;
+    }
+    #color{
+        color: green;
+    }
+
+</style>
+<body>
+    <p>通配符</p>
+    <div>div标签</div>
+    <div class="box">测试类选择器</div>
+    <div class="box" id="color">测试id选择器</div>
+    <div class="box" id="color" style="color: blue;">测试行内样式</div>
+
+</body>
+</html>

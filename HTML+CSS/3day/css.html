@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 标签选择器 */
+        p{
+            color: rgb(255, 0, 247);
+        }
+        /* 类选择器 */
+        .male {
+            color: blue;
+        }
+
+        .size {
+            font-size: 20px;
+        }
+        /* id选择器 */
+        #red {
+            color: red;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .size1 {
+            font-style: italic;
+            line-height: 50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-indent: 2em;text-decoration: underline;
+            text-align: center;
+        }
+        div span{
+            color: green;
+        }
+        div > span{
+            color: blue;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <p>体验css</p>
+    <p>111</p>
+    <p>222</p>
+    <p class="male">333</p>
+    <!-- 一个标签可以使用多个类名，class属性值写多个类名，类名用空格隔开 -->
+    <div class="male size">div标签</div>
+    <p id="red">这是一个id选择器</p>
+    <div class="box"></div>
+    <p class="size1">414141</p>
+    <div>
+        <span>23131</span>
+        <p>
+            <span>孙子</span>
+        </p>
+    </div>
+    <span>1231321</span>
+    <p class="size1"></p>
+    <div class="size1"></div>
+
+</body>
+</html>

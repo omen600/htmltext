@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    li{
+        list-style: none;
+        /* 去掉默认的样式 */
+        /* 也可以用ul{list-style: none;} */
+    }
+    div{
+        width: 200px;
+        height: 200px;
+        background-color: aquamarine;
+        padding: 10px;
+        /* padding顺序四值写法 上 右 下 左 
+        三值写法 上 左右 下
+        二值写法 上下 左右*/
+        border: 1px dashed black ;
+        /* border: 1px solid black; */
+        /* border: 1px dotted black; */
+        /* margin: 20px; */
+        box-sizing: border-box;
+        /* 内减模式 */
+        margin: 0 auto;
+        /* 多值写法：四值写法 上 右 下 左 
+        三值写法 上 左右 下
+        二值写法 上下 左右 */
+        /* 不撑大盒子 */
+        /* margin-left: 100px; */
+        /* overflow: scroll; */
+        overflow: hidden;
+    } 
+    
+</style>
+
+<body> 
+    
+    <h1>标题</h1>
+    <ul>
+        <li>23</li>
+    </ul>
+    <!-- 合并现象 -->
+    <div>div标签</div>
+    <div><img src="../1day/111.png" alt=""></div>
+    <br>
+    <div class="father">
+        <div class="son">6</div>
+    </div>
+
+    
+</body>
+</html>
